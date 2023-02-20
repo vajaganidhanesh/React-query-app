@@ -1,6 +1,7 @@
 import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import FetchingData from "./pages/FetchingData";
+import OtherComponent from "./pages/OtherComponent";
 
 const queryClient = new QueryClient();
 
@@ -11,6 +12,7 @@ function App() {
         <h1>Rick and Morty</h1>
         <QueryClientProvider client={queryClient}>
           <FetchingData />
+          <OtherComponent />
         </QueryClientProvider>
       </div>
     </div>

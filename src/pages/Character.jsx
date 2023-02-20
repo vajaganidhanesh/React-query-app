@@ -13,6 +13,8 @@ function Character({ character }) {
           </p>
           <p className='title'>Last seen on</p>
           <p>{character.location.name}</p>
+
+          <button onClick={() => {}}>delete</button>
         </div>
       </div>
     </>
